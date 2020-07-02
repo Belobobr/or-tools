@@ -58,9 +58,10 @@ if(BUILD_SCIP)
   set(PAPILO OFF)
   set(ZIMPL OFF)
   set(IPOPT OFF)
+  set(TPI "none")
+  set(EXPRINT "none")
   set(LPS "none")
-  #set(EXPRINT "none")
-  #set(TPI "tny")
+  set(SYM "none")
   FetchContent_Declare(
     scip
     URL "${CMAKE_CURRENT_LIST_DIR}/../../dependencies/archives/scip-7.0.1.tgz"
